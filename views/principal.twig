@@ -1,0 +1,71 @@
+{% extends 'main.twig' %}
+{% block Content %}
+<section class="container p-0  my-5">
+	
+	{% for item in A.verbs %}
+		
+		<div class="row tiles m-0">
+			{% for actions in item.action %}
+				
+			<div class="tile effect-jose">
+				<img  class="img-fluid" src="/img/{{ actions.img }}">
+				<figcaption>
+					<div class="icons">
+						<a {# type="button" #} class="btn movedown" data-toggle="modal" data-target="#exampleModal{{loop.index}}">
+							
+							{{actions.titles}}
+					
+						</a>
+					</div>
+				</figcaption>
+			</div>
+			<div class="modal fade" id="exampleModal{{loop.index}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">{{actions.titles}}</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<p>{{actions.cont}}</p>
+							<table class="table">
+							<thead>
+								<tr>
+									<th>Present</th>
+									<th>Past</th>
+									<th>Past/Present Participle</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>{{actions.present}}</td>
+									<td>{{actions.past}}</td>
+									<td>{{actions.participle}}</td>
+								</tr>
+							</tbody>
+							</table>
+							<h4>SENTENCES</h4>
+							<ul>
+								<li>{{actions.sentecesPresentSimple}}</li>
+								<li>{{actions.sentencesPastSimeple}}</li>
+								<li>{{actions.sentecesPresentParticiple}}</li>
+								<li>{{actions.sentecesPastParticiple}}</li>
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">
+								Close
+							</button>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		
+		</div>
+	{% endfor %}
+</section>
+{% endblock %}

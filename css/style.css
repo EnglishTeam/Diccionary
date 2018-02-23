@@ -3,23 +3,34 @@
 
   body {
     font-family:  "Tahoma, Verdana, Segoe, sans-serif";
-    background: #000 !important;
+   /* background:  url("/img/background_carloscharlie.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+  font-size: 16px;
     color: #000;
     margin: 0;
   }
 
   .tiles {
     /*position: absolute;*/
-   
+   box-shadow: 5px 10px 18px #888888;
     left: 0;
     width: 100%;
     height: 100%;
   }
 
 nav{
-  background: #25d366
+  background: #EF4836
 }
+a.nav-link{
+  text-decoration: none;
+  color: #fff !important;
+  font-weight: bold;
 
+
+}
   .tile {
     position: relative;
     float: left;
@@ -76,20 +87,26 @@ div.effect-jose img{
 .effect-jose .movedown{
   position: absolute;
   padding-left: 13px;
-  margin-top: 55px;
-  margin-left: 19.5%;
+  margin-top: 60%;
+  margin-left: 40%;
   transform: translate(0px, -500px);
- 
+ background: #fff;
   transition: transform 0.3s, opacity 0.3s;
   opacity: 0;
 }
+a.movedown{
+  text-decoration: none;
+  color: red !important;
+  font-weight: bold;
 
+}
 .effect-jose:hover .movedown{
 
-  transition: transform 0.2s, opacity 1s;
+  transition: transform 0.3s, opacity 1s;
   transition-delay: 0.25s;
   transform: translate(0px, 0px);
   opacity: 1;
+  z-index: 1;
 }
 
 .effect-jose .moveup{
@@ -97,6 +114,7 @@ div.effect-jose img{
   padding-left: 13px;
   margin-top: 55px;
   margin-left: 19.5%;
+  background: #fff;
   transform: translate(0px, 500px);
  
   transition: transform 0.2s, opacity 0.3s;
@@ -153,3 +171,77 @@ div.effect-jose img{
   transform: scale3d(1.05,1.05,1);
 }
 
+.title {
+  color: #757575;
+  font-weight: bold;
+}
+.modal {
+  text-align: left;
+}
+.modal-content {
+  border: none;
+  border-radius: 2px;
+      box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22),0 25px 55px 0 rgba(0,0,0,0.21);
+}
+.modal-header{
+  border-bottom: 0 !important;
+  padding-top: 15px;
+  padding-right: 26px;
+  padding-left: 26px;
+  padding-bottom: 0px;
+  color:white;
+    background: linear-gradient(-45deg, #EF4836 0%,#CF000F 100%);
+
+}
+.modal-header span, .close{
+  color:white !important;
+  opacity: 1 !important;
+}
+.modal-title {
+  font-size: 34px;
+}
+.modal-body{
+  border-bottom: 0;
+  padding-top: 5px;
+  padding-right: 26px;
+  padding-left: 26px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.modal-footer {
+  border-top:0 !important;
+  padding-top: 0px;
+  padding-right:26px;
+  padding-bottom:26px;
+  padding-left:26px;
+}
+
+.btn-default,.btn-primary {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    color: white;
+    background: linear-gradient(-45deg, #EF4836 0%,#CF000F 100%);;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 2rem; 
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+}
+.btn-default:hover{
+  background-color: #FFF;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.btn-primary {
+  color: #FFF;
+  background-color: #2980B9;
+}
+.btn-primary:hover{
+  background-color: #2980B9;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}

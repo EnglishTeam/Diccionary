@@ -1,0 +1,24 @@
+{
+  "name": "diccionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "popper.js": "^1.12.9",
+    "twig": "^1.10.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnglishTeam/Diccionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnglishTeam/Diccionary/issues"
+  },
+  "homepage": "https://github.com/EnglishTeam/Diccionary#readme"
+}
