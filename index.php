@@ -29,10 +29,10 @@ $A  = array(
 					'present'=>'Sing',
 					'past'=>'Sang',
 					'participle'=>'Sung',
-					'sentecesPresentSimple'=>'I Sing in the bathroom (Present Simple)',
+					'sentecesPresentSimple'=>'I am Singing in the church (Present Continuous)',
 					'sentencesPastSimeple'=>'I Sang in the moorning (Past Simple)',
-					'sentecesPresentParticiple'=>'I have Sing in the moorning (Present Participle)',
-					'sentecesPastParticiple'=>'I had Sing in the moorning (Past Participle)',
+					'sentecesPresentParticiple'=>'I have Sung in the moorning (Present Perfect)',
+					'sentecesPastParticiple'=>'I had Sung in the moorning (Past Perfect)',
 				],
 				[
 					'titles'=>'Dance',
@@ -43,8 +43,8 @@ $A  = array(
 					'participle'=>'Danced',
 					'sentecesPresentSimple'=>'I Dance in the classroom (Present Simple)',
 					'sentencesPastSimeple'=>'I Danced with my parents (Past Simple)',
-					'sentecesPresentParticiple'=>'I have Dance with my girlfrind (Present Participle)',
-					'sentecesPastParticiple'=>'I had Dance in the garden (Past Participle)',
+					'sentecesPresentParticiple'=>'I have Danced with my girlfrind (Present Perfect)',
+					'sentecesPastParticiple'=>'I had Danced in the garden (Past Perfect)',
 				],
 				[
 					'titles'=>'Walk',
@@ -55,8 +55,8 @@ $A  = array(
 					'participle'=>'Walked',
 					'sentecesPresentSimple'=>'I walk in the park (Present Simple)',
 					'sentencesPastSimeple'=>'I walked with my dogs (Past Simple)',
-					'sentecesPresentParticiple'=>'I have walk in the mall (Present Participle)',
-					'sentecesPastParticiple'=>'I had Walked with my wife (Past Participle)',
+					'sentecesPresentParticiple'=>'I have walked in the mall (Present Perfect)',
+					'sentecesPastParticiple'=>'I had Walked with my wife (Past Perfect)',
 
 				],
 				[
@@ -67,9 +67,9 @@ $A  = array(
 					'past'=>'Swam',
 					'participle'=>'Swum',
 					'sentecesPresentSimple'=>'I Swim in the beach (Present Simple)',
-					'sentencesPastSimeple'=>'I Swam in the pool (Past Simple)',
-					'sentecesPresentParticiple'=>'I have swim in the lake (Present Participle)',
-					'sentecesPastParticiple'=>'I had Swum in the river (Past Participle)',
+					'sentencesPastSimeple'=>'I Swum in the pool (Past Simple)',
+					'sentecesPresentParticiple'=>'I have swum in the lake (Present Perfect)',
+					'sentecesPastParticiple'=>'I had Swum in the river (Past Perfect)',
 				],
 				[
 					'titles'=>'Jump',
@@ -80,8 +80,8 @@ $A  = array(
 					'participle'=>'Jumped',
 					'sentecesPresentSimple'=>'I Jump in the park (Present Simple)',
 					'sentencesPastSimeple'=>'I Jumped in the bed (Past Simple)',
-					'sentecesPresentParticiple'=>'I have jump in the pool (Present Participle)',
-					'sentecesPastParticiple'=>'I had jump in the inflatable castle (Past Participle)',
+					'sentecesPresentParticiple'=>'I have jumped in the pool (Present Perfect)',
+					'sentecesPastParticiple'=>'I had jumped in the inflatable castle (Past Perfect)',
 				],
 				[
 					'titles'=>'Climb',
@@ -92,8 +92,8 @@ $A  = array(
 					'participle'=>'Climbed',
 					'sentecesPresentSimple'=>'I Climb the mountain (Present Simple)',
 					'sentencesPastSimeple'=>'I Climbed in the Everest (Past Simple)',
-					'sentecesPresentParticiple'=>'I have Climb in the abandoned building (Present Participle)',
-					'sentecesPastParticiple'=>'I had climb in the tree of the park (Past Participle)',
+					'sentecesPresentParticiple'=>'I have Climbed in the abandoned building (Present Perfect)',
+					'sentecesPastParticiple'=>'I had climbed in the tree of the park (Past Perfect)',
 
 				],
 				[
@@ -105,8 +105,8 @@ $A  = array(
 					'participle'=>'Cleaned',
 					'sentecesPresentSimple'=>'I clean my room in the moornig (Present Simple)',
 					'sentencesPastSimeple'=>'I Cleaned my car the last friday (Past Simple)',
-					'sentecesPresentParticiple'=>'I have Clean my nose (Present Participle)',
-					'sentecesPastParticiple'=>'I had clean my garden (Past Participle)',
+					'sentecesPresentParticiple'=>'I have Cleaned my nose (Present Perfect)',
+					'sentecesPastParticiple'=>'I had cleaned my garden (Past Perfect)',
 				],
 				[
 					'titles'=>'Drive',
@@ -117,8 +117,8 @@ $A  = array(
 					'participle'=>'Driven',
 					'sentecesPresentSimple'=>'I Drive my car to the school (Present Simple)',
 					'sentencesPastSimeple'=>'I Drove a taxi (Past Simple)',
-					'sentecesPresentParticiple'=>'I have Drive motorcicle (Present Participle)',
-					'sentecesPastParticiple'=>'I had Driven an automatic car (Past Participle)',
+					'sentecesPresentParticiple'=>'I have Driven motorcicle (Present Perfect)',
+					'sentecesPastParticiple'=>'I had Driven an automatic car (Past Perfect)',
 				],
 
 			),
