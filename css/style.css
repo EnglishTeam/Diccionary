@@ -22,7 +22,7 @@
   }
 
 nav{
-  background: #EF4836
+  background:  #444444
 }
 a.nav-link{
   text-decoration: none;
@@ -221,7 +221,7 @@ a.movedown{
     border-radius: 2px;
     display: inline-block;
     color: white;
-    background: linear-gradient(-45deg, #EF4836 0%,#CF000F 100%);;
+    background: linear-gradient(-45deg, #EF4836 0%,#CF000F 100%);
     text-align: center;
     height: 36px;
     line-height: 36px;
@@ -238,10 +238,24 @@ a.movedown{
   box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
 }
 .btn-primary {
-  color: #FFF;
+  color: #FFF;  
   background-color: #2980B9;
 }
 .btn-primary:hover{
   background-color: #2980B9;
   box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.bkg{
+  background-color:  #444444 !important;
+}
+.form{
+  background: rgba(255,255,255,0.9);
+    box-shadow: 2px 2px 4px #000000;
+
+}
+.nav-title{
+  transition: 0.5s ease;
+}
+.nav-title:hover{
+  color:#EF4836;
 }
