@@ -49,7 +49,7 @@ $A  = array(
 				[
 					'titles'=>'Walk',
 					'cont'=>'o advance or travel on foot at a moderate speed or pace; proceed by steps; move by advancing the feet alternately so that there is always one foot on the ground in bipedal locomotion and two or more feet on the ground in quadrupedal locomotion.',
-					'img'=>'run.png',
+					'img'=>'walk.jpg',
 					'present'=>'Walk',
 					'past'=>'Walked',
 					'participle'=>'Walked',
@@ -62,7 +62,7 @@ $A  = array(
 				[
 					'titles'=>'Swim',
 					'cont'=>'Correr',
-					'img'=>'swim2.png',
+					'img'=>'swim1.jpg',
 					'present'=>'Swim',
 					'past'=>'Swam',
 					'participle'=>'Swum',
@@ -74,7 +74,7 @@ $A  = array(
 				[
 					'titles'=>'Jump',
 					'cont'=>'Correr',
-					'img'=>'dances.png',
+					'img'=>'jump.jpg',
 					'present'=>'Jump',
 					'past'=>'Jumped',
 					'participle'=>'Jumped',
@@ -86,7 +86,7 @@ $A  = array(
 				[
 					'titles'=>'Climb',
 					'cont'=>'Correr',
-					'img'=>'run.png',
+					'img'=>'climb.jpg',
 					'present'=>'Climb',
 					'past'=>'Climbed',
 					'participle'=>'Climbed',
@@ -99,7 +99,7 @@ $A  = array(
 				[
 					'titles'=>'Clean',
 					'cont'=>'Correr',
-					'img'=>'sing2.png',
+					'img'=>'clean.jpg',
 					'present'=>'Clean',
 					'past'=>'Cleaned',
 					'participle'=>'Cleaned',
@@ -111,7 +111,7 @@ $A  = array(
 				[
 					'titles'=>'Drive',
 					'cont'=>'Correr',
-					'img'=>'dances.png',
+					'img'=>'drive.jpg',
 					'present'=>'Drive',
 					'past'=>'Drove',
 					'participle'=>'Driven',
